@@ -399,6 +399,33 @@
             transform: translateX(5px);
             box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
         }
+        /* Project Button Container - Fixed Alignment */
+        .project-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .project-btn-secondary {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: white;
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: var(--transition);
+            font-size: 0.9rem;
+            border: 2px solid var(--primary-color);
+        }
+
+        .project-btn-secondary:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
 
         /* About Section */
         .about {
@@ -868,7 +895,11 @@
                             <span class="tech-badge">JavaScript</span>
                             <span class="tech-badge">GSAP</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
+
                     </div>
                 </div>
                 <div class="project-card">
@@ -882,7 +913,11 @@
                             <span class="tech-badge">MongoDB</span>
                             <span class="tech-badge">Socket.io</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
+
                     </div>
                 </div>
                 <div class="project-card">
@@ -895,7 +930,11 @@
                             <span class="tech-badge">OpenWeather API</span>
                             <span class="tech-badge">Chart.js</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
+
                     </div>
                 </div>
                 <div class="project-card">
@@ -909,7 +948,11 @@
                             <span class="tech-badge">Firebase</span>
                             <span class="tech-badge">Tailwind CSS</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
+
                     </div>
                 </div>
                 <div class="project-card">
@@ -924,7 +967,11 @@
                             <span class="tech-badge">PHP</span>
                             <span class="tech-badge">MySQL</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="https://daarain22.github.io/restaurant_website/" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
+
                     </div>
                 </div>
                 <div class="project-card">
@@ -937,7 +984,10 @@
                             <span class="tech-badge">PostgreSQL</span>
                             <span class="tech-badge">Bootstrap</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
                     </div>
                 </div>
                 <div class="project-card">
@@ -950,7 +1000,10 @@
                             <span class="tech-badge">Express</span>
                             <span class="tech-badge">MongoDB</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
                     </div>
                 </div>
                 <div class="project-card">
@@ -963,7 +1016,10 @@
                             <span class="tech-badge">Firebase</span>
                             <span class="tech-badge">Redux</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
                     </div>
                 </div>
                 <div class="project-card">
@@ -977,7 +1033,10 @@
                             <span class="tech-badge">React</span>
                             <span class="tech-badge">MongoDB</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
                     </div>
                 </div>
                 <div class="project-card">
@@ -990,7 +1049,10 @@
                             <span class="tech-badge">Spring Boot</span>
                             <span class="tech-badge">MySQL</span>
                         </div>
-                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')">Get Quote →</a>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="YOUR_PROJECT_URL_HERE" target="_blank" class="project-btn">View Project →</a>
+                        <a href="#contact" class="project-btn" onclick="handleNavClick(event, 'contact')" style="background: white; color: #667eea; border: 2px solid #667eea;">Get Quote →</a>
+                    </div>
                     </div>
                 </div>
             </div>
